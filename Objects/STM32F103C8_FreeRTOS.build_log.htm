@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 12311 15255, 132131, LIC=MPPLD-8SABF-56UQ2-9XZ2I-HFE8I-BWI5X
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  F:\keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.12
+Assembler:       Armasm.exe V6.12
+Linker/Locator:  ArmLink.exe V6.12
+Library Manager: ArmAr.exe V6.12
+Hex Converter:   FromElf.exe V6.12
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      
+ 
+<h2>Project:</h2>
+F:\xiaozhi\stm32\STM32F103C8_FreeRTOS.uvprojx
+Project File Date:  10/29/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.12', folder: 'F:\keil_v5\ARM\ARMCLANG\Bin'
+Build target 'STM32F103C8_FreeRTOS'
+Core/Src/main.c(6): warning: no previous extern declaration for non-static variable 'g_scheduler_heartbeat' [-Wmissing-variable-declarations]
+volatile uint32_t g_scheduler_heartbeat = 0U;
+                  ^
+Core/Src/main.c(7): warning: no previous extern declaration for non-static variable 'g_fast_task_counter' [-Wmissing-variable-declarations]
+volatile uint32_t g_fast_task_counter = 0U;
+                  ^
+Core/Src/main.c(8): warning: no previous extern declaration for non-static variable 'g_input_event_flags' [-Wmissing-variable-declarations]
+volatile uint32_t g_input_event_flags = 0U;
+                  ^
+Core/Src/main.c(37): warning: function 'HeartbeatTask' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Core/Src/main.c(50): warning: function 'CounterTask' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+Core/Src/main.c(125): warning: function 'Error_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+6 warnings generated.
+compiling main.c...
+compiling board.c...
+linking...
+Program Size: Code=9304 RO-data=568 RW-data=8 ZI-data=12424  
+FromELF: creating hex file...
+".\Objects\STM32F103C8_FreeRTOS.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F103C8_FreeRTOS
+  F:\keil_v5\pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
