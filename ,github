@@ -1,0 +1,35 @@
+# Keil 编译输出目录
+Objects/
+Listings/
+
+# 编译中间文件
+*.o
+*.obj
+*.d
+*.crf
+*.dep
+*.lnp
+*.iex
+
+# 编译结果
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.build_log.htm
+
+# 用户界面配置
+*.uvguix.*
+
+# 调试器生成的文件
+*.dbgconf
+JLinkLog.txt
+JLinkSettings.ini
+
+# 临时及备份文件
+*.bak
+*.tmp
+*~

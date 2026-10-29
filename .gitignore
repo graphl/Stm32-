@@ -1,0 +1,16 @@
+# 构建目录
+build/
+cmake-build-*/
+
+# 编译产物
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.exe
+
+# 本地配置与敏感信息
+.env
+.env.*
+!.env.example
